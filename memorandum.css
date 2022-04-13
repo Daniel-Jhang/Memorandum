@@ -1,0 +1,46 @@
+.memorandum{
+    width: 400px;
+    padding: 20px;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+input{
+    width: 356px;
+    height: 30px;
+    padding: 0;
+}
+
+.add{
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    border: 0;
+    box-sizing: border-box;
+    width: 360px;
+    padding: 15px;
+}
+
+.remove{
+    margin-top: 20px;
+    background-color: rgb(212, 101, 101);
+    color: white;
+    border: 0;
+    box-sizing: border-box;
+    width: 360px;
+    padding: 15px;
+}
+
+.list{
+    padding-top: 20px;
+}
+
+.item{
+    width: 100%;
+    border-bottom: 1px solid black;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
